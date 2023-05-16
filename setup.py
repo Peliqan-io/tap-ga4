@@ -11,7 +11,7 @@ setup(
     py_modules=["tap_ga4"],
     install_requires=[
         "google-analytics-data==0.14.0",
-        "singer-python==5.12.2",
+        "singer-python @ git+https://github.com/peliqan-io/singer-python@master",
         "requests==2.28.1",
         "backoff==1.8.0",
     ],
