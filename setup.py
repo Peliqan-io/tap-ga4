@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name="tap-ga4",
-    version="0.0.25",
+    version="0.1.5",
     description="Singer.io tap for extracting data",
     author="Stitch",
     url="http://singer.io",
@@ -13,7 +13,7 @@ setup(
         "google-analytics-data==0.14.0",
         "singer-python @ git+https://github.com/peliqan-io/singer-python@master",
         "requests==2.28.1",
-        "backoff==1.8.0",
+        "backoff==2.2.1",
     ],
     extras_require={
         'dev': [
