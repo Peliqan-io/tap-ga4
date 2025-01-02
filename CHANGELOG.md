@@ -1,4 +1,32 @@
 # Changelog
+## v0.1.5
+  * Fix `400 Cannot have filter_partition dimension without specifying filter-partitions in the request` error [#104](https://github.com/singer-io/tap-ga4/pull/104)
+
+## v0.1.4
+  * Add `NUMBER` data type in the catalog for the `INTEGER` type metric field. [#102](https://github.com/singer-io/tap-ga4/pull/102)
+## v0.1.3
+  * Update cached field exclusions to match changes made in the GA4 Data API [#101](https://github.com/singer-io/tap-ga4/pull/101)
+
+## v0.1.2
+  * Integer dimensions are sometimes returned as the string (other) [#37](https://github.com/singer-io/tap-ga4/pull/37)
+## v0.1.1
+  * Update cached field exclusions to match changes made in the GA4 Data API [#100](https://github.com/singer-io/tap-ga4/pull/100)
+## v0.1.0
+  * Update libraries to run on python 3.11.7 [#99](https://github.com/singer-io/tap-ga4/pull/99)
+## v0.0.32
+  * Update cached field exclusions to match changes made in the GA4 Data API [#97](https://github.com/singer-io/tap-ga4/pull/97)
+## v0.0.31
+  * Update cached field exclusions to match changes made in the GA4 Data API [#92](https://github.com/singer-io/tap-ga4/pull/92)
+## v0.0.30
+  * Update cached field exclusions to match changes made in the GA4 Data API [#77](https://github.com/singer-io/tap-ga4/pull/77)
+## v0.0.29
+  * Update cached field exclusions to match changes made in the GA4 Data API [#75](https://github.com/singer-io/tap-ga4/pull/75)
+## v0.0.28
+  * Update metric fields for the ecommerce report [#67](https://github.com/singer-io/tap-ga4/pull/71)
+## v0.0.27
+  * Update cached field exclusions to match changes made in the GA4 Data API [#67](https://github.com/singer-io/tap-ga4/pull/67)
+## v0.0.26
+  * Update cached field exclusions to match changes made in the GA4 Data API [#65](https://github.com/singer-io/tap-ga4/pull/65)
 ## v0.0.25
   * Update cached field exclusions to match changes made in the GA4 Data API [#62](https://github.com/singer-io/tap-ga4/pull/62)
 ## v0.0.24

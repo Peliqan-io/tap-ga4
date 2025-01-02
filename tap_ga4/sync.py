@@ -101,7 +101,7 @@ DATETIME_FORMATS = {
 }
 
 
-def parse_datetime(field_name, value, fmt=singer.utils.DATETIME_FMT):
+def parse_datetime(field_name, value, fmt=singer.utils.DATETIME_FMT_SAFE):
     """
     Handle the case where the datetime value is not a valid datetime format.
 
