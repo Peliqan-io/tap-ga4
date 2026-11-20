@@ -58,6 +58,7 @@ class GA4SyncCanaryTest(SyncCanaryTest, GA4Base):
             'traffic_acq_session_campaign_report': {"date", "conversions", },
             'traffic_acq_session_default_channel_group_report': {"date",
                                                                  "conversions", },
+            'traffic_acq_session_default_channel_group_ecommerce_report': {"date", },
             'traffic_acq_session_medium_report': {"date", "conversions", },
             'traffic_acq_session_source_and_medium_report': {"date", "conversions", },
             'traffic_acq_session_source_platform_report': {"date", "conversions", },

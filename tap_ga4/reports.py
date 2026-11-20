@@ -226,6 +226,19 @@ PREMADE_REPORTS = [
         ],
     },
     {
+        "name": "traffic_acq_session_default_channel_group_ecommerce_report",
+        "metrics": [
+            "sessions",
+            "addToCarts",
+            "ecommercePurchases",
+            "purchaseRevenue",
+        ],
+        "dimensions": [
+            "date",
+            "sessionDefaultChannelGroup",
+        ],
+    },
+    {
         "name": "traffic_acq_session_source_platform_report",
         "metrics": [
             "totalUsers",

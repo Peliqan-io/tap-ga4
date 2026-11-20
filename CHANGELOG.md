@@ -1,4 +1,7 @@
 # Changelog
+## v0.1.7
+  * Add `traffic_acq_session_default_channel_group_ecommerce_report` (date, sessionDefaultChannelGroup: sessions, addToCarts, ecommercePurchases, purchaseRevenue) [PQ-4738]
+
 ## v0.1.6
   * Fix `400 The dimensions and metrics are incompatible` error [#106](https://github.com/singer-io/tap-ga4/pull/106)
   * Update pylint exclusions [#105](https://github.com/singer-io/tap-ga4/pull/105)
