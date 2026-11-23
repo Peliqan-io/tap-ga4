@@ -146,6 +146,7 @@ class GA4Base(BaseCase):
             'tech_screen_resolution_report': default_expectations,
             'traffic_acq_session_campaign_report': default_expectations,
             'traffic_acq_session_default_channel_group_report': default_expectations,
+            'traffic_acq_session_default_channel_group_ecommerce_report': default_expectations,
             'traffic_acq_session_medium_report': default_expectations,
             'traffic_acq_session_source_and_medium_report': default_expectations,
             'traffic_acq_session_source_platform_report': default_expectations,
