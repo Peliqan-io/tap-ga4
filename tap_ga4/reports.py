@@ -226,6 +226,8 @@ PREMADE_REPORTS = [
         ],
     },
     {
+        # Name must NOT start with "ecommerce_": baserow TapGoogleAnalytics._select_streams
+        # skips every ecommerce_* stream, so renaming it would hide this table for all customers.
         "name": "traffic_acq_session_default_channel_group_ecommerce_report",
         "metrics": [
             "sessions",
